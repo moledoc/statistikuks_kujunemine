@@ -78,13 +78,18 @@ Lisaks
 </tr>
 </table>
 
+---
 
+<!-- TODO: -->
 ## Elu statistikuna ehk näiteid päris- ja pseudoelust
 ### Näited päriselust
 #### RAK: andmetest lugeda välja päeva kulgu, ilma et ma teaks õppusest midagi
 #### Omniva: mõiste ja arusaamine supreemumist
 ### Näide pseudoelust
 #### codewars näide w/ Go and python
+---
+
+<!-- TODO: -->
 ## Minu aeg Tartu Ülikoolis
 ### baka
 #### koolitöö ja -elu
@@ -93,9 +98,15 @@ Lisaks
 #### koolielu ja -töö
 #### huvid (OpSys, madalama taseme programmeerimiskeeled)
 #### töö
+---
+
+<!-- TODO: -->
 ## soovitused
 ### koos õppimine: esiteks toredam, teiseks kergem ja väiksem stress õppimisel
 ### täiendavad huvid
 ### konspektid: video obsidianist
 ### tööriistad/programmeerimiskeeled/mõttemaailm/(täiendavad)ained, mis tuleb kasuks
+---
+
+<!-- TODO: -->
 ## Kokkuvõte
