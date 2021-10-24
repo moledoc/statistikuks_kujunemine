@@ -50,7 +50,7 @@ func main() {
 	}
 	fmt.Printf("P_0: %v\ngrowth: %v\nnew inhab.: %v\n", *p0, *p, *aug)
 	i := 1000
-	fmt.Printf("%-20s%-20s%-20s%-20s%-20s\n", "P_N", "Calculation time", "Iteration time", "Calculated value", "Iterated value")
+	fmt.Printf("%-20s%-20s%-20s%-20s%-20s%-20s\n", "P_N", "Calculation time", "Iteration time", "Calculated value", "Iterated value", "Speedup")
 	for i < (*pn) {
 		startCalc := time.Now()
 		calculated := NbYear(*p0, *p, *aug, i)
@@ -58,7 +58,7 @@ func main() {
 		startIter := time.Now()
 		iterated := NbYearForce(*p0, *p, *aug, i)
 		endIter := time.Since(startIter)
-		fmt.Printf("%-20v%-20v%-20s%-20v%-20v\n", i, endCalc, endIter, calculated, iterated)
+		fmt.Printf("%-20v%-20v%-20s%-20v%-20v%-20v\n", i, endCalc, endIter, calculated, iterated, int64(endIter/endCalc))
 		i *= 10
 	}
 }

@@ -21,7 +21,7 @@ p = 0.001
 aug = 10
 pn = 10_000_000_000_000
 print(f"P_0: {p0}\ngrowth: {p}\nnew inhab.: {aug}")
-print(f'{"P_N":<20}{"Calculation time":<20}{"Iteration time":<20}{"Calculation value":<20}{"Iteration value":<20}')
+print(f'{"P_N":<20}{"Calculation time":<20}{"Iteration time":<20}{"Calculation value":<20}{"Iteration value":<20}{"Speedup":<20}')
 while i < pn:
     start_calc=time.monotonic()
     calculated = nb_year(p0,p,aug,i)
@@ -29,5 +29,7 @@ while i < pn:
     iterated = start_iter=time.monotonic()
     iterated = nb_year_iter(p0,p,aug,i)
     end_iter=time.monotonic()
-    print(f'{i:<20}{round(end_calc-start_calc,10):<20.2e}{round(end_iter-start_iter,10):<20.2e}{calculated:<20}{iterated:<20}')
+    calc_time = end_calc-start_calc
+    iter_time = end_iter-start_iter
+    print(f'{i:<20}{round(calc_time,10):<20.2e}{round(iter_time,10):<20.2e}{calculated:<20}{iterated:<20}{round(iter_time/calc_time,2):<20}')
     i *= 10
