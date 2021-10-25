@@ -74,7 +74,10 @@ Lisaks
 <!-- TODO: -->
 ## Hea tuju dieet ehk mis kasu või kus ma kasutan matemaatikat ja matemaatilist statistikat
 
-<!-- TODO: -->
+* Gradienti nt kasutatakse masinõppe mudelites
+* mitte-parameetrilisest statistikast tuttav teema kernel, samuti masinõppes kasutusel
+
+Sellised näited on toredad ja tekitavad natukene konteksti, aga toon paar enda näidet.
 
 ### Tuttav kontseptsioon
 
@@ -144,6 +147,9 @@ Lahendus:
 
 ### Andmetest lugeda välja päeva kulgu, ilma et ma teaks õppusest midagi
 
+<!-- TODO: -->
+[naide2](https://github.com/moledoc/statistikuks_kujunemine/tree/main/oppus)
+
 ### codewars näide w/ Go and python
 
 [naide3](https://github.com/moledoc/statistikuks_kujunemine/tree/main/codewars_example)
@@ -151,23 +157,58 @@ Lahendus:
 ---
 
 <!-- TODO: -->
-## Minu aeg Tartu Ülikoolis
-### baka
-#### koolitöö ja -elu
-#### töö
-### magister
-#### koolielu ja -töö
-#### huvid (OpSys, madalama taseme programmeerimiskeeled)
-#### töö
+
+## Minu aeg Tartu Ülikoolis retrospektiivselt
+
+**Disclaimer**: räägin enda kogemustest ja mõtetest ehk ilmselgelt info on kallutatud. Te ei pruugi sama arvata või samadest asjadest huvitatud olla ja see ok. See on osa konteksti loomisest - nüüd teate, et see ei huvita vms.
+
+### Bakalaureus
+
+Hakkan nimetama aineid, teadmisi, ideid jm mida olen kasutanud.
+
+Kui on küsimusi mingi aine, teadmise vms kohta, et kus seda kasutada, siis julgelt märku anda.
+
+
+* IT-suunamoodul
+  * andmebaasid
+    * SQL
+  * programmeerimise põhikontseptsioonid
+    * python - laialt kasutusel data science, analysis, ML
+* mõtlemise arendamine ning ideede ja konseptsioonide omandamine: jäägi arvutamisel algebra jäägiklassid mõtteviis
+
+
+Soovitaksin keskenduda koolile, vähemalt esimese 1.5h jooksul.
+
+Kui tunnete, et jaksate rohkem aineid võtta (nagu varasematest loengutest kuuldud), siis tehke seda. Mina ei teinud.
+
+Teise aasta lõpus, suvi vastu kolmandat, kolmanda esimene pool on hea aeg erialaseks tööks.
+* juba oskate midagi
+* veidi rohkem aega (võib-olla)
+
+Võimalus ka isiklike projektidega alustada
+* hea CV jaoks
+* enda oskuste arendamisteks ja õpitu rakendamiseks
+
+### Magister
+
+Siin ei hakka aineid jm nimetama, kuna ei ole veel relevantne + võite vabalt minna mujale programmi.
+
+Hakkasin tegema isiklike projekte ning uurima õppekava väliseid teemasid (mis on mulle väga palju juurde andnud, aga saab ka ilma)
+* programmeerimisprojektid
+  * suures osas peate nkn koodi kirjutama hakkma, oskus hästi programmeerida või jälgida häid tavasid tõstab teie väärtust
+* operatsioonisüsteemid
+  * paljud andmebaasid asuvad linuxis, mistõttu baasteadmisi omada on hea.
+
+Sõltuvalt magistriprogrammist, võimalik on osalise koormusega töötada, kuid ei ole lihtne, eriti kui tegeleda enese täiendamisega koolivälisel ajal.
+
+
 ---
 
 <!-- TODO: -->
-## soovitused
-### koos õppimine: esiteks toredam, teiseks kergem ja väiksem stress õppimisel
-### täiendavad huvid
-### konspektid: video obsidianist
-### tööriistad/programmeerimiskeeled/mõttemaailm/(täiendavad)ained, mis tuleb kasuks
----
+## Soovitused
 
-<!-- TODO: -->
-## Kokkuvõte
+* koos õppimine: esiteks toredam, teiseks kergem ja väiksem stress õppimisel
+* täiendavad huvid
+* konspektid: video obsidianist
+* tööriistad/programmeerimiskeeled/mõttemaailm/(täiendavad)ained, mis tuleb kasuks
+---

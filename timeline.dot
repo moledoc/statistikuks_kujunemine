@@ -9,7 +9,12 @@ y5 [label = "2020"]
 y6 [label = "2021"]
 y7 [label = "2022"]
 
-tst [label="tst"]
+tst1 [label="tst"]
+tst2 [label="tst"]
+tst3 [label="tst"]
+tst4 [label="tst"]
+tst5 [label="tst"]
+tst6 [label="tst"]
 
   y1 -> y2;
   y2 -> y3;
@@ -19,6 +24,21 @@ tst [label="tst"]
   y6 -> y7;
 
   subgraph cluster_2016 {
-  {rank=same y1 tst}
+    {rank=same y1 tst1}
+  }
+  subgraph cluster_2017 {
+    {rank=same y2 tst2}
+  }
+  subgraph cluster_2018 {
+    {rank=same y3 tst3}
+  }
+  subgraph cluster_2019 {
+    {rank=same y4 tst4}
+  }
+  subgraph cluster_2020 {
+    {rank=same y5 tst5}
+  }
+  subgraph cluster_2021 {
+    {rank=same y6 tst6}
   }
 }

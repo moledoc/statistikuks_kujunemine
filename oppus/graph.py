@@ -13,11 +13,11 @@ rang = randrange(10000)
 timestamp = [start + timedelta(seconds=randrange(7*86400)) for i in range(rang)]
 packet_size = [randrange(4096) for i in range(rang)]
 
-df = pd.DataFrame({"timestamp":timestamp,"packet_size":packet_size}).sample(frac=1)
-
 
 # analyse data
 import pandas as pd
+df = pd.DataFrame({"timestamp":timestamp,"packet_size":packet_size}).sample(frac=1)
+
 
 df["timestamp"] = pd.to_datetime(df["timestamp"])
 df.set_index("timestamp", inplace=True)
