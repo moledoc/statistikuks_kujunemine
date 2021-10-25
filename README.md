@@ -4,7 +4,7 @@
     </center>
     <center>
     <span style="font-size:20px">
-    Meelis Utt
+    <br>Meelis Utt
     </span>
     </center>
 </h1>
@@ -14,18 +14,10 @@
 ## Kava
 
 * Kes ma olen ja miks ma siin olen
-<!-- Lühidalt timeline + miks ma füüsiliselt kohal ja mis mu eesmärk on -->
-<!-- timeline self explanatory -->
-<!-- füüsiliselt kohal: joke about mare inviting me -->
-<!-- eesmärgid: konteksti õpitu ja päriselu vahel
-+ joonistada pilti kuidas õpingud võiksid minna, minu enda näitel -->
-* Elu statistikuna ehk näiteid päris- ja pseudoelust
-    * Näited päriselust
-        * RAK: andmetest lugeda välja päeva kulgu, ilma et ma teaks õppusest midagi
-        * Omniva: mõiste ja arusaamine supreemumist
-    * Näide pseudoelust
-        * codewars näide w/ Go and python
-<!-- rõhutada kohti, mis mul on kasuks tulnud -->
+* Hea tuju dieet ehk mis kasu või kus ma kasutan matemaatikat ja matemaatilist statistikat
+    * Tuttav kontseptsioon
+    * Andmetest lugeda välja päeva kulgu, ilma et ma teaks õppusest midagi
+    * codewars näide w/ Go and python
 * Minu aeg Tartu Ülikoolis
     * baka
         * koolitöö ja -elu
@@ -55,7 +47,7 @@
 
 * 2016-2019 Matemaatilise statistika bakalaureus
 * 2019-2021 Actuarial and financial engineering
-    * (Kindlustus ja finanstmatemaatika)
+    * (Kindlustus- ja finanstmatemaatika)
 
 Lisaks
 
@@ -67,10 +59,9 @@ Lisaks
 <td>
 
 * Sest Mare kutsus mind
-  * võimalus anda konteksti ja soovitusi uutele õppijatele
-  * võimalus saada ise uusi kogemusi ja õppida
-* Peamised eesmärgid:
-  * anda konteksti
+* Võimalus anda konteksti ja soovitusi uutele õppijatele
+* Võimalus saada ise uusi kogemusi ja õppida
+* Peamine eesmärk on anda konteksti
     * õpitule
     * järgnevale 3-5+ aastale
 
@@ -81,12 +72,82 @@ Lisaks
 ---
 
 <!-- TODO: -->
-## Elu statistikuna ehk näiteid päris- ja pseudoelust
-### Näited päriselust
-#### RAK: andmetest lugeda välja päeva kulgu, ilma et ma teaks õppusest midagi
-#### Omniva: mõiste ja arusaamine supreemumist
-### Näide pseudoelust
-#### codewars näide w/ Go and python
+## Hea tuju dieet ehk mis kasu või kus ma kasutan matemaatikat ja matemaatilist statistikat
+
+<!-- TODO: -->
+
+### Tuttav kontseptsioon
+
+Näide Omnivast.
+
+Olgu meil
+
+* teenindusjuhtumi avamise ja sulgemise aeg
+* vastutava meeskonna tööajad (ajas muutuvad)
+
+Vaja
+
+* leida teenindusjuhtumile kulunud reaalne tööaeg
+* (ilma loogilise muutuseta) implementeerida R'i kood SQL'i
+
+Näide meeskondade tööaja tabelist
+
+| Meeskond | Nädalapäev | Töötunde | Kehtiv kuni |
+|--------- | ---------- | -------- | ----------- |
+| paki     | 1          | 8        | 2050-01-01  |
+| paki     | 2          | 8        | 2050-01-01  |
+| paki     | 3          | 4        | 2050-01-01  |
+| paki     | 4          | 4        | 2050-01-01  |
+| paki     | 5          | 8        | 2050-01-01  |
+| paki     | 6          | 4        | 2050-01-01  |
+| paki     | 7          | 4        | 2050-01-01  |
+| paki     | 2          | 6        | 2021-09-23  |
+| paki     | 2          | 4        | 2021-09-29  |
+| paki     | 2          | 3        | 2021-10-25  |
+| paki     | 5          | 8        | 2021-09-24  |
+| paki     | 6          | 5        | 2021-09-06  |
+| paki     | 7          | 7        | 2021-09-13  |
+
+
+Teenindusjuhtum
+* avati 2021-08-29
+* suleti 2021-10-26
+
+Üldine loogika:
+* simuleerime teenindusjuhtumi kulgu päeva kaupa
+
+```
+2021-08-29
+2021-08-30
+2021-09-01
+...
+2021-10-26
+```
+
+* simuleeritud aja ning tööaegade tabeli ühendamisel loome eeldused selleks, et leida iga päeva reaalse tööaja
+
+Probleem:
+* teisipäeva (nädalapäev = 2), reede, laupäeva ja pühapäeva kohta tekib mitu rida, kuidas me teame milline on õige.
+
+Lahendus:
+* Meil oleks vaja võtta vastava kuupäeva kohta väikseima `Kehtiv kuni` väärtusega meeskonna töötundidega rida.
+* Probleem:
+    * Sellise kohmaka definitsiooniga on keeruline töötada, kui peas peab andmete kulgu visualiseerima
+    * Kas meil on mingi tuttav mõiste, mis võtab lahenduse sisu kokku?
+* Lahendus:
+  * Tegemist on ju supreemumiga
+  * See on tuttav kontseptsioon ning seetõttu on sellega lihtsam töötada
+
+
+**Aga kas oleks ka lihtsamalt saanud?**
+
+
+### Andmetest lugeda välja päeva kulgu, ilma et ma teaks õppusest midagi
+
+### codewars näide w/ Go and python
+
+[naide3](https://github.com/moledoc/statistikuks_kujunemine/tree/main/codewars_example)
+
 ---
 
 <!-- TODO: -->
