@@ -249,12 +249,11 @@ Milliseid projekte tegin
 * Programmeerimisprojektid
   * Suures osas peate nkn koodi kirjutama hakkma, oskus hästi programmeerida või jälgida häid tavasid tõstab teie väärtust
   * Oskus kasutada _giti_ või muud versioonihaldus programmi.
+  * Näiteks kulude programm r-shiny'ga
 * Operatsioonisüsteemid
   * Paljud andmebaasid asuvad linuxis, mistõttu baasteadmisi omada on hea.
 * Kui oleks jõudnud, siis ka andmeteaduse projekte
   * vaadake nt kaggle.com ringi
-
-
 
 ---
 
@@ -279,6 +278,6 @@ Milliseid projekte tegin
 Mida ma ise oleks tahtnud veel teha
 * [Parem konspekteerimine](https://www.youtube.com/watch?v=MYJsGksojms&list=WL&index=29&t=42s)
     *  Ei pea seda tööriista kasutama, on palju erinevaid võimalusi
-        * vimwiki
-        * Rmarkdown
+        * vimwiki (norra keel)
+        * Rmarkdown (magistritöö)
 ---
