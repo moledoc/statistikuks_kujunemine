@@ -26,8 +26,6 @@
         * koolielu ja -töö
         * huvid (OpSys, madalama taseme programmeerimiskeeled)
         * töö
-
-
 * soovitused
     * koos õppimine: esiteks toredam, teiseks kergem ja väiksem stress õppimisel
     * täiendavad huvid
@@ -69,19 +67,53 @@ Lisaks
 </tr>
 </table>
 
+
+**Disclaimer**: räägin enda kogemustest ja mõtetest ehk ilmselgelt info on kallutatud. Te ei pruugi sama arvata või samadest asjadest huvitatud olla ja see ok. See on osa konteksti loomisest - nüüd teate, et see ei huvita vms.
+
+---
+
+## Hea tuju dieet ehk miks matemaatika/statistika
+
+Ruttan veidi ette, aga:
+* suure tõenäosusega hakkate koodi kirjutama
+  * (kuigi mitte päris sellist nagu "tavalised" programmeerijad).
+* Ebaefektiivne kood võib töö ära teha küll, aga see võib uusi probleeme tekitada.
+
+Järgnev näide ei ole tööst võetud, kuid tuli mul ennast täiendades ette.
+
+See on lihtne näide, kus näeme kuidas matemaatika/statistika teadmisi kasutades on võimalik programmi efektiivsust oluliselt tõsta.
+
+[Näide: populatsiooni kasv](https://github.com/moledoc/statistikuks_kujunemine/tree/main/codewars_example)
+
+
+
+<!-- ### Andmetest lugeda välja päeva kulgu, ilma et ma teaks õppusest midagi -->
+<!-- TODO: -->
+<!-- [naide2](https://github.com/moledoc/statistikuks_kujunemine/tree/main/oppus) -->
+
 ---
 
 <!-- TODO: -->
-## Hea tuju dieet ehk mis kasu või kus ma kasutan matemaatikat ja matemaatilist statistikat
 
-* Gradienti nt kasutatakse masinõppe mudelites
-* mitte-parameetrilisest statistikast tuttav teema kernel, samuti masinõppes kasutusel
+## Minu aeg Tartu Ülikoolis retrospektiivselt
 
-Sellised näited on toredad ja tekitavad natukene konteksti, aga toon paar enda näidet.
+Esiteks
+
+Mõttetera:
+* mõelge ainetest ja teadmistest kui tööriistadest:
+  * teil ei pea iga tööriist kaasas olema, paljude puhul on oluline oskus seda kasutada ja ära tunda (nt populatsiooni kasvu näide).
+  * ja kui teil peaks tööriista vaja minema (ja seda ei pruugi üldse ette näha), siis teil on see kohe/lühikese ajaga võimalik kasutusele võtta.
+
+Miks selline mõttetera/miks ma sellega alustasin?
+* Mõne aine puhul võib teil tekkida küsimsed:
+  * Miks ma seda õpin?
+  * Kus ma seda kasutan?
+  * Mis kasu mul sellest on?
+* Iga teadmise kohta ei oska ma veel näidet tuua, aga mõne kohta küll.
+
+---
 
 ### Tuttav kontseptsioon
-
-Näide Omnivast.
 
 Olgu meil
 
@@ -141,30 +173,33 @@ Lahendus:
   * Tegemist on ju supreemumiga
   * See on tuttav kontseptsioon ning seetõttu on sellega lihtsam töötada
 
+**Aga kas seda kõike oleks ka lihtsamalt saanud?**
 
-**Aga kas oleks ka lihtsamalt saanud?**
 
-
-### Andmetest lugeda välja päeva kulgu, ilma et ma teaks õppusest midagi
-
-<!-- TODO: -->
-[naide2](https://github.com/moledoc/statistikuks_kujunemine/tree/main/oppus)
-
-### codewars näide w/ Go and python
-
-[naide3](https://github.com/moledoc/statistikuks_kujunemine/tree/main/codewars_example)
+Ma ei oodanud leida supreemumi kontseptsiooni, aga
+* selles oli äratundmise rõõm;
+* lihtsustas minu tööd: lihtsustas mõttetööd ja lahenduse idee edasiandmist;
+    * kuigi ma ei kasutanud kogu teadmist supreemumi kohta.
 
 ---
 
-<!-- TODO: -->
+Järgmine mõttetera:
+* selleks, et selgelt infot/ideid/kontseptsioone edasi anda, peate teemat palju kõrgemal tasemel tundma, kui seda on konkreetne info/idee/kontseptsioon.
 
-## Minu aeg Tartu Ülikoolis retrospektiivselt
+Küllaltki loogiline mõttetera, aga vahepeal on kõige raskem lihtsaid asju märgata.
 
-**Disclaimer**: räägin enda kogemustest ja mõtetest ehk ilmselgelt info on kallutatud. Te ei pruugi sama arvata või samadest asjadest huvitatud olla ja see ok. See on osa konteksti loomisest - nüüd teate, et see ei huvita vms.
+Miks see on oluline?
+* Olles tulevased analüütikud, siis enda mõtete, ideede, leidude jm selge edasiandmine on oluline oskus.
+* Eriti kuna annate infot edasi inimestele, kes on matemaatikast ja/või arvutitest väga kauged.
+
+Aga nüüd, kuidas minust ikkagi statistik kujunes (kuigi mu ametinimetus seda ei kajasta, hetkel)?
 
 ### Bakalaureus
 
-Hakkan nimetama aineid, teadmisi, ideid jm mida olen kasutanud.
+
+
+
+<!-- Hakkan nimetama aineid, teadmisi, ideid jm mida olen kasutanud.
 
 Kui on küsimusi mingi aine, teadmise vms kohta, et kus seda kasutada, siis julgelt märku anda.
 
@@ -174,7 +209,7 @@ Kui on küsimusi mingi aine, teadmise vms kohta, et kus seda kasutada, siis julg
     * SQL
   * programmeerimise põhikontseptsioonid
     * python - laialt kasutusel data science, analysis, ML
-* mõtlemise arendamine ning ideede ja konseptsioonide omandamine: jäägi arvutamisel algebra jäägiklassid mõtteviis
+* mõtlemise arendamine ning ideede ja konseptsioonide omandamine: jäägi arvutamisel algebra jäägiklassid mõtteviis -->
 
 
 Soovitaksin keskenduda koolile, vähemalt esimese 1.5h jooksul.
@@ -191,24 +226,59 @@ Võimalus ka isiklike projektidega alustada
 
 ### Magister
 
-Siin ei hakka aineid jm nimetama, kuna ei ole veel relevantne + võite vabalt minna mujale programmi.
+Miks 'Kindlustus- ja finantsmatemaatika'?
+* Olin kahevahel: 'Kindlustus- ja finantsmatemaatika' ja 'Arvutiteadusete magister koos andmeteaduse suunamooduliga'
+* Valisin AFE (Actuarial and Finanfial Engineering), kuna leidsin, et seda on mõistlikum õppida:
+  * seda on raskem iseseisvalt õppida;
+  * leidsin, et see annab mulle rohkem lisandväärtust.
 
-Hakkasin tegema isiklike projekte ning uurima õppekava väliseid teemasid (mis on mulle väga palju juurde andnud, aga saab ka ilma)
-* programmeerimisprojektid
-  * suures osas peate nkn koodi kirjutama hakkma, oskus hästi programmeerida või jälgida häid tavasid tõstab teie väärtust
-* operatsioonisüsteemid
-  * paljud andmebaasid asuvad linuxis, mistõttu baasteadmisi omada on hea.
+Mis siis sai?
+* Sain matemaatilise ülevaate kindlustusest ja finantsmatemaatikast.
+* Aga mul hakkas tekkima suurem huvi ka arvutiteaduse suunas: madalama taseme programmeerimiskeeled, operatsioonisüsteemid jms,
+    * seda ma õppisin kooli kõrval.
+* See tähendab, et magistri jooksul sain arendada interdistsiplinaarseid oskusi.
+* Eriti kuna käisin ka osakoormusega ka tööl:
+  * 3p nädalas oli kool ja 2p oli jäetud vabaks, et saaks tööl käia.
 
-Sõltuvalt magistriprogrammist, võimalik on osalise koormusega töötada, kuid ei ole lihtne, eriti kui tegeleda enese täiendamisega koolivälisel ajal.
+
+Hakkasin tegema isiklike projekte
+* Õpid uusi teadmisi.
+* Saad CV's neid näidata ehk tekitad endale portfooliot.
+
+Milliseid projekte tegin
+* Programmeerimisprojektid
+  * Suures osas peate nkn koodi kirjutama hakkma, oskus hästi programmeerida või jälgida häid tavasid tõstab teie väärtust
+  * Oskus kasutada _giti_ või muud versioonihaldus programmi.
+* Operatsioonisüsteemid
+  * Paljud andmebaasid asuvad linuxis, mistõttu baasteadmisi omada on hea.
+* Kui oleks jõudnud, siis ka andmeteaduse projekte
+  * vaadake nt kaggle.com ringi
+
 
 
 ---
 
-<!-- TODO: -->
+
 ## Soovitused
 
-* koos õppimine: esiteks toredam, teiseks kergem ja väiksem stress õppimisel
+* Koos õppimine muudab
+    * õppimise meeldivamaks
+    * kergem ja vähendab stressi
+    * tekitab meeldejäävaid olukordi
+        * aeg ülikoolis võiks olla ka positiivselt meeldejääv
+    * ühtsustunne ja sõprus
 * täiendavad huvid
-* konspektid: video obsidianist
+    * isiklikud projektid
+    * täiesti muu teemaga kurssi viimine
+    * interdistsiplinaarsed oskused
 * tööriistad/programmeerimiskeeled/mõttemaailm/(täiendavad)ained, mis tuleb kasuks
+    * git
+    * linux
+    * oskus jälgida, et kood oleks loetav ja efektiivne ning dokumenteeritud
+
+Mida ma ise oleks tahtnud veel teha
+* [Parem konspekteerimine](https://www.youtube.com/watch?v=MYJsGksojms&list=WL&index=29&t=42s)
+    *  Ei pea seda tööriista kasutama, on palju erinevaid võimalusi
+        * vimwiki
+        * Rmarkdown
 ---
