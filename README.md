@@ -13,31 +13,23 @@
 
 ## Kava
 
-* Kes ma olen ja miks ma siin olen
-* Hea tuju dieet ehk mis kasu või kus ma kasutan matemaatikat ja matemaatilist statistikat
+* Haridustee/töö ja miks ma siin olen
+* Hea tuju dieet ehk miks matemaatika/statistika
+* Minu aeg Tartu Ülikoolis retrospektiivselt
     * Tuttav kontseptsioon
-    * Andmetest lugeda välja päeva kulgu, ilma et ma teaks õppusest midagi
-    * codewars näide w/ Go and python
-* Minu aeg Tartu Ülikoolis
-    * baka
-        * koolitöö ja -elu
-        * töö
-    * magister
-        * koolielu ja -töö
-        * huvid (OpSys, madalama taseme programmeerimiskeeled)
-        * töö
-* soovitused
-    * koos õppimine: esiteks toredam, teiseks kergem ja väiksem stress õppimisel
-    * täiendavad huvid
-    * konspektid: video obsidianist
-    * tööriistad/programmeerimiskeeled/mõttemaailm/(täiendavad)ained, mis tuleb kasuks
-* Kokkuvõte
+    * Bakalaureus
+        * Mis aineid ma siis võtsin?
+    * Magister
+* Soovitused
+
+Kas on küsimusi, enne kui alustan?
+* Võite küsida kohe, kui mõni küsimus tekib.
 
 ---
 
 <table>
 <tr>
-<th> Kes ma olen </th>
+<th> Haridustee/töö </th>
 <th> Miks ma siin olen </th>
 </tr>
 <tr>
@@ -68,7 +60,7 @@ Lisaks
 </table>
 
 
-**Disclaimer**: räägin enda kogemustest ja mõtetest ehk ilmselgelt info on kallutatud. Te ei pruugi sama arvata või samadest asjadest huvitatud olla ja see ok. See on osa konteksti loomisest - nüüd teate, et see ei huvita vms.
+**Disclaimer**: räägin enda kogemustest ja mõtetest ehk ilmselgelt info on kallutatud. Te ei pruugi sama arvata või samadest asjadest huvitatud olla ja see ok. Ka see loob teile konteksti.
 
 ---
 
@@ -79,11 +71,11 @@ Ruttan veidi ette, aga:
   * (kuigi mitte päris sellist nagu "tavalised" programmeerijad).
 * Ebaefektiivne kood võib töö ära teha küll, aga see võib uusi probleeme tekitada.
 
-Järgnev näide ei ole tööst võetud, kuid tuli mul ennast täiendades ette.
-
-See on lihtne näide, kus näeme kuidas matemaatika/statistika teadmisi kasutades on võimalik programmi efektiivsust oluliselt tõsta.
+Järgnev näide ei ole töös ette tulnud, kuid tuli ennast täiendades ette.
 
 [Näide: populatsiooni kasv](https://github.com/moledoc/statistikuks_kujunemine/tree/main/codewars_example)
+
+See on lihtne näide, kus näeme kuidas matemaatika/statistika teadmisi kasutades on võimalik programmi efektiivsust oluliselt tõsta.
 
 
 
@@ -97,19 +89,17 @@ See on lihtne näide, kus näeme kuidas matemaatika/statistika teadmisi kasutade
 
 ## Minu aeg Tartu Ülikoolis retrospektiivselt
 
-Esiteks
-
-Mõttetera:
+Esiteks mõttetera:
 * mõelge ainetest ja teadmistest kui tööriistadest:
-  * teil ei pea iga tööriist kaasas olema, paljude puhul on oluline oskus seda kasutada ja ära tunda (nt populatsiooni kasvu näide).
-  * ja kui teil peaks tööriista vaja minema (ja seda ei pruugi üldse ette näha), siis teil on see kohe/lühikese ajaga võimalik kasutusele võtta.
+  * teil ei pea iga tööriist kaasas olema; paljude tööriistade puhul on oluline oskus seda kasutada ja ära tunda kus seda kasutada saab (nt populatsiooni kasvu näide).
+  * Ja kui teil peaks mingit tööriista vaja minema (ja seda ei pruugi üldse ette näha), siis on teil see kohe/lühikese ajaga võimalik kasutusele võtta.
 
 Miks selline mõttetera/miks ma sellega alustasin?
 * Mõne aine puhul võib teil tekkida küsimsed:
   * Miks ma seda õpin?
   * Kus ma seda kasutan?
   * Mis kasu mul sellest on?
-* Iga teadmise kohta ei oska ma veel näidet tuua, aga mõne kohta küll.
+* Iga teadmise kohta ei oska ma veel näidet tuua, aga mõne kohta küll. Toon ühe näite.
 
 ---
 
@@ -123,7 +113,10 @@ Olgu meil
 Vaja
 
 * leida teenindusjuhtumile kulunud reaalne tööaeg
-* (ilma loogilise muutuseta) implementeerida R'i kood SQL'i
+
+Piirangud
+* olemasolevat loogikat ei tohi muuta
+* lahendus on tarvilik teha SQL'is
 
 Näide meeskondade tööaja tabelist
 
@@ -159,10 +152,11 @@ Teenindusjuhtum
 2021-10-26
 ```
 
-* simuleeritud aja ning tööaegade tabeli ühendamisel loome eeldused selleks, et leida iga päeva reaalse tööaja
+* simuleeritud aja ning tööaegade tabeli ühendamisel loome eeldused selleks, et leida iga päeva reaalse tööaja.
 
 Probleem:
-* teisipäeva (nädalapäev = 2), reede, laupäeva ja pühapäeva kohta tekib mitu rida, kuidas me teame milline on õige.
+* teisipäeva (nädalapäev = 2), reede, laupäeva ja pühapäeva kohta tekib tööaja ja simuleeritud päevad kohta mitu rida
+  * Kuidas me teame milline on õige?
 
 Lahendus:
 * Meil oleks vaja võtta vastava kuupäeva kohta väikseima `Kehtiv kuni` väärtusega meeskonna töötundidega rida.
@@ -173,18 +167,18 @@ Lahendus:
   * Tegemist on ju supreemumiga
   * See on tuttav kontseptsioon ning seetõttu on sellega lihtsam töötada
 
-**Aga kas seda kõike oleks ka lihtsamalt saanud?**
 
-
-Ma ei oodanud leida supreemumi kontseptsiooni, aga
+Ma ei oodanud leida supreemumi kontseptsiooni mitte-matemaatilises töös, aga
 * selles oli äratundmise rõõm;
 * lihtsustas minu tööd: lihtsustas mõttetööd ja lahenduse idee edasiandmist;
-    * kuigi ma ei kasutanud kogu teadmist supreemumi kohta.
+    * kuigi ma ei kasutanud kogu teadmist supreemumi kohta, teadmised ja kogemused selle kontseptsiooniga olid väärtuslikud.
+
+**Aga kas seda kõike oleks ka lihtsamalt saanud, kui me oleks võinud loogikat muuta?**
 
 ---
 
 Järgmine mõttetera:
-* selleks, et selgelt infot/ideid/kontseptsioone edasi anda, peate teemat palju kõrgemal tasemel tundma, kui seda on konkreetne info/idee/kontseptsioon.
+* selleks, et selgelt infot/ideid/kontseptsioone edasi anda, peab teemat palju kõrgemal tasemel tundma, kui seda on konkreetne info/idee/kontseptsioon.
 
 Küllaltki loogiline mõttetera, aga vahepeal on kõige raskem lihtsaid asju märgata.
 
@@ -196,25 +190,86 @@ Aga nüüd, kuidas minust ikkagi statistik kujunes (kuigi mu ametinimetus seda e
 
 ### Bakalaureus
 
-
-
-
-<!-- Hakkan nimetama aineid, teadmisi, ideid jm mida olen kasutanud.
-
-Kui on küsimusi mingi aine, teadmise vms kohta, et kus seda kasutada, siis julgelt märku anda.
-
-
-* IT-suunamoodul
-  * andmebaasid
-    * SQL
-  * programmeerimise põhikontseptsioonid
-    * python - laialt kasutusel data science, analysis, ML
-* mõtlemise arendamine ning ideede ja konseptsioonide omandamine: jäägi arvutamisel algebra jäägiklassid mõtteviis -->
-
-
 Soovitaksin keskenduda koolile, vähemalt esimese 1.5h jooksul.
 
 Kui tunnete, et jaksate rohkem aineid võtta (nagu varasematest loengutest kuuldud), siis tehke seda. Mina ei teinud.
+
+#### **Mis aineid ma siis võtsin?**
+
+<table>
+<tr>
+<th> Sügis </th>
+<th> Kevad </th>
+</tr>
+<tr>
+<td>
+
+* analüütline geomeetria
+* kõrgem matemaatika I
+* matemaatiline maailmapilt
+* matemaatilise teksti küljendamine
+* programeerimine
+* sissejuhatus matemaatilise statistika erialasse
+
+
+</td>
+<td>
+
+* algebra I
+* andmeanalüüs I
+* erialane inglise k
+* kõrgem matemaatika II
+* Objekt-orienteeritud programmeerimine (OOP)
+* tõenäosusteooria ja matemaatiline statistika
+
+</td>
+</tr>
+<td>
+
+* algoritmid ja andmestruktuurid
+* infoturve
+* lähis-ida kultuurilugu
+* matemaatiline analüüs III
+* sissejuhatus finantsmatemaatikasse
+* statistika tarkvara R
+* tõenäosusteooria ja matemaatiline statistika II
+
+</td>
+<td>
+
+* andmeanalüüs II
+* andmebaasid
+* andmeturve
+* militaartehnoloogiad
+* monte carlo meetodid
+* numbrilised meetodid
+* valikuuringute teooria I
+
+</td>
+</tr>
+<td>
+
+* jaapani kultuur ja ühiskond
+* katseplaneerimise teooria
+* kõne ning hääle tervishoid
+* mitteparameetriline statistika
+* populatsiooni geneetika
+* tarkvara tehnikad
+* turu uuringud
+
+</td>
+<td>
+
+* eesti keel (bakalaureusetöö jaoks)
+* juhuslikud protsessid
+* kvalitatiivsete andmete analüüs
+* maatriksid statistikas
+* statistiline andmeteadus ja visualiseerimine
+
+</td>
+</tr>
+</table>
+
 
 Teise aasta lõpus, suvi vastu kolmandat, kolmanda esimene pool on hea aeg erialaseks tööks.
 * juba oskate midagi
@@ -228,44 +283,93 @@ Võimalus ka isiklike projektidega alustada
 
 Miks 'Kindlustus- ja finantsmatemaatika'?
 * Olin kahevahel: 'Kindlustus- ja finantsmatemaatika' ja 'Arvutiteadusete magister koos andmeteaduse suunamooduliga'
-* Valisin AFE (Actuarial and Finanfial Engineering), kuna leidsin, et seda on mõistlikum õppida:
-  * seda on raskem iseseisvalt õppida;
-  * leidsin, et see annab mulle rohkem lisandväärtust.
+* Valisin AFE (Actuarial and Financial Engineering), kuna leidsin, et seda on mõistlikum õppida:
+  * seda on raskem iseseisvalt õppida
+  * leidsin, et see annab mulle rohkem lisandväärtust
 
-Mis siis sai?
+Mis siis magistris sai?
 * Sain matemaatilise ülevaate kindlustusest ja finantsmatemaatikast.
 * Aga mul hakkas tekkima suurem huvi ka arvutiteaduse suunas: madalama taseme programmeerimiskeeled, operatsioonisüsteemid jms,
-    * seda ma õppisin kooli kõrval.
+    * võtsin vastavaid vabaaineid
+    * õppisin kooli kõrvalt
 * See tähendab, et magistri jooksul sain arendada interdistsiplinaarseid oskusi.
 * Eriti kuna käisin ka osakoormusega ka tööl:
   * 3p nädalas oli kool ja 2p oli jäetud vabaks, et saaks tööl käia.
 
 
-Hakkasin tegema isiklike projekte
-* Õpid uusi teadmisi.
-* Saad CV's neid näidata ehk tekitad endale portfooliot.
+<table>
+<tr>
+<th> Sügis </th>
+<th> Kevad </th>
+</tr>
+<tr>
+<td>
+
+* distributions in financial mathematics
+* life insurance mathematics I
+* machine learning
+* mathematical statistics I
+* non-life insurance mathematics
+* risk theory
+* simulation methods in financial mathematics
+* stochastic models
+* time series analysis
+
+
+</td>
+<td>
+
+* C++
+* computational finance
+* general linear models
+* life insurance mathematics II
+* martingales
+* models in financial mathematics
+* operatsioonisüsteemid
+
+</td>
+</tr>
+<td>
+
+* data engineering
+* parallel computing
+* professional practice
+* (funktsionaalsed) programeerimiskeeled
+
+</td>
+</tr>
+</table>
+
+
+Hakkasin tegema isiklike projekte: https://github.com/moledoc
+* selleks, et omandada uusi oskusi
+* näidata olemasolevaid oskusi
+  * hakkab tekkima portfolio, mida CV's välja tuua
+
 
 Milliseid projekte tegin
 * Programmeerimisprojektid
-  * Suures osas peate nkn koodi kirjutama hakkma, oskus hästi programmeerida või jälgida häid tavasid tõstab teie väärtust
+  * suures osas peate nkn koodi kirjutama hakkama; oskus hästi programmeerida või jälgida häid tavasid tõstab teie väärtust
   * Oskus kasutada _giti_ või muud versioonihaldus programmi.
-  * Näiteks kulude programm r-shiny'ga
+  * Hea koht kus alustada, on teha midagi, mida te tunnete, et teil vaja oleks; Minu puhul näiteks [kulude jälgimise programm](https://github.com/moledoc/depr_showcase/tree/master/expenses-rshiny)
 * Operatsioonisüsteemid
-  * Paljud andmebaasid asuvad linuxis, mistõttu baasteadmisi omada on hea.
+  * \*Unix tüüpi operatsioonisüsteemidega tutvumine
+    * linux
+    * \*BSD
+  * Paljud andmebaasid asuvad linuxis, mistõttu baasteadmisi omada on hea
 * Kui oleks jõudnud, siis ka andmeteaduse projekte
   * vaadake nt kaggle.com ringi
 
 ---
 
-
 ## Soovitused
 
-* Koos õppimine muudab
-    * õppimise meeldivamaks
-    * kergem ja vähendab stressi
+* Koos õppimine
+    * muudab õppimise meeldivamaks
+    * on kergem ja vähendab stressi (nt kui millegiga kinni või ei saa mingist teemast aru)
     * tekitab meeldejäävaid olukordi
         * aeg ülikoolis võiks olla ka positiivselt meeldejääv
-    * ühtsustunne ja sõprus
+    * loob ühtsustunnet ja sõprust
 * täiendavad huvid
     * isiklikud projektid
     * täiesti muu teemaga kurssi viimine
@@ -275,7 +379,7 @@ Milliseid projekte tegin
     * linux
     * oskus jälgida, et kood oleks loetav ja efektiivne ning dokumenteeritud
 
-Mida ma ise oleks tahtnud veel teha
+Tagasi vaadates, mida ma tahan, et ma oleks osanud/teinud:
 * [Parem konspekteerimine](https://www.youtube.com/watch?v=MYJsGksojms&list=WL&index=29&t=42s)
     *  Ei pea seda tööriista kasutama, on palju erinevaid võimalusi
         * vimwiki (norra keel)
