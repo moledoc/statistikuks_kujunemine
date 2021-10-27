@@ -183,7 +183,7 @@ Aga nüüd, kuidas minust ikkagi statistik kujunes (kuigi mu ametinimetus seda e
 
 ### Bakalaureus
 
-Soovitaksin keskenduda koolile, vähemalt esimese 1.5h jooksul.
+Soovitaksin keskenduda koolile, vähemalt esimese 1.5a jooksul.
 
 Kui tunnete, et jaksate rohkem aineid võtta (nagu varasematest loengutest kuuldud), siis tehke seda. Mina ei teinud.
 
@@ -212,7 +212,7 @@ Kui tunnete, et jaksate rohkem aineid võtta (nagu varasematest loengutest kuuld
 * andmeanalüüs I
 * erialane inglise k
 * kõrgem matemaatika II
-* Objekt-orienteeritud programmeerimine (OOP)
+* objekt-orienteeritud programmeerimine (OOP)
 * tõenäosusteooria ja matemaatiline statistika
 
 </td>
@@ -246,9 +246,9 @@ Kui tunnete, et jaksate rohkem aineid võtta (nagu varasematest loengutest kuuld
 * katseplaneerimise teooria
 * kõne ning hääle tervishoid
 * mitteparameetriline statistika
-* populatsiooni geneetika
-* tarkvara tehnikad
-* turu uuringud
+* populatsioonigeneetika
+* tarkvaratehnika
+* turu-uuringud
 
 </td>
 <td>
@@ -264,7 +264,7 @@ Kui tunnete, et jaksate rohkem aineid võtta (nagu varasematest loengutest kuuld
 </table>
 
 
-Teise aasta lõpus, suvi vastu kolmandat, kolmanda esimene pool on hea aeg erialaseks tööks.
+Teise aasta lõpus/suvi vastu kolmandat/kolmanda esimene pool on hea aeg erialaseks tööks:
 * juba oskate midagi
 * veidi rohkem aega (võib-olla)
 
@@ -286,7 +286,7 @@ Mis siis magistris sai?
     * võtsin vastavaid vabaaineid
     * õppisin kooli kõrvalt
 * See tähendab, et magistri jooksul sain arendada interdistsiplinaarseid oskusi.
-* Eriti kuna käisin ka osakoormusega ka tööl:
+* Eriti kuna käisin ka osakoormusega tööl:
   * 3p nädalas oli kool ja 2p oli jäetud vabaks, et saaks tööl käia.
 
 
@@ -337,21 +337,22 @@ Mis siis magistris sai?
 Hakkasin tegema isiklike projekte: https://github.com/moledoc
 * selleks, et omandada uusi oskusi
 * näidata olemasolevaid oskusi
-  * hakkab tekkima portfolio, mida CV's välja tuua
+  * hakkab tekkima portfoolio, mida CV's välja tuua
 
 
 Milliseid projekte tegin
 * Programmeerimisprojektid
   * suures osas peate nkn koodi kirjutama hakkama; oskus hästi programmeerida või jälgida häid tavasid tõstab teie väärtust
-  * Oskus kasutada _giti_ või muud versioonihaldus programmi.
+  * Oskus kasutada _git_'i või muud versioonihaldus programmi.
   * Hea koht kus alustada, on teha midagi, mida te tunnete, et teil vaja oleks; Minu puhul näiteks [kulude jälgimise programm](https://github.com/moledoc/depr_showcase/tree/master/expenses-rshiny)
 * Operatsioonisüsteemid
   * \*Unix tüüpi operatsioonisüsteemidega tutvumine
-    * linux
+    * _linux_
     * \*BSD
-  * Paljud andmebaasid asuvad linuxis, mistõttu baasteadmisi omada on hea
+  * Paljud andmebaasid on ülesse seatud _linux_'is, mistõttu baasteadmisi omada on hea
+  * suurema võimsusega arvutusserverid kasutavad tihtipeale _linux_'it (kasvõi TÜ enda HPC keskus)
 * Kui oleks jõudnud, siis ka andmeteaduse projekte
-  * vaadake nt kaggle.com ringi
+  * vaadake nt kaggle.com, datacamp.com ringi (ülikooli kaudu võib saada tasuta kursusi)
 
 ---
 
@@ -365,12 +366,14 @@ Milliseid projekte tegin
     * loob ühtsustunnet ja sõprust
 * täiendavad huvid
     * isiklikud projektid
-    * täiesti muu teemaga kurssi viimine
-    * interdistsiplinaarsed oskused
-* tööriistad/programmeerimiskeeled/mõttemaailm/(täiendavad)ained, mis tuleb kasuks
-    * git
-    * linux
-    * oskus jälgida, et kood oleks loetav ja efektiivne ning dokumenteeritud
+    * täiesti muu/uue teemaga kurssi viimine = interdistsiplinaarsed oskused
+* Mis minumeelest (sest minul on) tuleb kasuks
+    * _git_'i tundmine
+    * baasteadmised _linux_'is
+    * programmeerimise head tavad
+    * oskus kirjutada dokumentatsiooni (koodile, raportile, mudelile jm lahendusele)
+    * oskus muuta kood loetavaks (_refactoring_)
+    * oskus optimeerida koodi
 
 Tagasi vaadates, mida ma tahan, et ma oleks osanud/teinud:
 * [Parem konspekteerimine](https://www.youtube.com/watch?v=MYJsGksojms&list=WL&index=29&t=42s)
