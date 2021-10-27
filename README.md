@@ -78,15 +78,7 @@ Järgnev näide ei ole töös ette tulnud, kuid tuli ennast täiendades ette.
 
 See on lihtne näide, kus näeme kuidas matemaatika/statistika teadmisi kasutades on võimalik programmi efektiivsust oluliselt tõsta.
 
-
-
-<!-- ### Andmetest lugeda välja päeva kulgu, ilma et ma teaks õppusest midagi -->
-<!-- TODO: -->
-<!-- [naide2](https://github.com/moledoc/statistikuks_kujunemine/tree/main/oppus) -->
-
 ---
-
-<!-- TODO: -->
 
 ## Minu aeg Tartu Ülikoolis retrospektiivselt
 
