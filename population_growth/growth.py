@@ -19,7 +19,7 @@ i = 1000
 p0 = 100
 p = 0.001
 aug = 10
-pn = 10_000_000_000_000
+pn = 100_000_000_000_000_000
 print(f"P_0: {p0}\ngrowth: {p}\nnew inhab.: {aug}")
 print(f'{"P_N":<20}{"Calculation time":<20}{"Iteration time":<20}{"Calculation value":<20}{"Iteration value":<20}{"Speedup":<20}')
 while i < pn:
