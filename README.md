@@ -38,6 +38,7 @@ Kas on küsimusi, enne kui alustan?
 * 2016-2019 Matemaatilise statistika bakalaureus
 * 2019-2021 Actuarial and financial engineering
     * (Kindlustus- ja finanstmatemaatika)
+    * AFE (KFM)
 
 Lisaks
 
@@ -283,7 +284,7 @@ Võimalus ka isiklike projektidega alustada
 
 Miks 'Kindlustus- ja finantsmatemaatika'?
 * Olin kahevahel: 'Kindlustus- ja finantsmatemaatika' ja 'Arvutiteadusete magister koos andmeteaduse suunamooduliga'
-* Valisin AFE (Actuarial and Financial Engineering), kuna leidsin, et seda on mõistlikum õppida:
+* Valisin KFM, kuna leidsin, et seda on mõistlikum õppida:
   * seda on raskem iseseisvalt õppida
   * leidsin, et see annab mulle rohkem lisandväärtust
 
