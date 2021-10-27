@@ -53,7 +53,7 @@ Lisaks
 * Võimalus anda konteksti ja soovitusi uutele õppijatele
 * Võimalus saada ise uusi kogemusi ja õppida
 * Peamine eesmärk on anda konteksti
-    * õpitule
+    * õpitule/õppeainetel
     * järgnevale 3-5+ aastale
 
 </td>
@@ -74,7 +74,7 @@ Ruttan veidi ette, aga:
 
 Järgnev näide ei ole töös ette tulnud, kuid tuli ennast täiendades ette.
 
-[Näide: populatsiooni kasv](https://github.com/moledoc/statistikuks_kujunemine/tree/main/codewars_example)
+[Näide: populatsiooni kasv](https://github.com/moledoc/statistikuks_kujunemine/tree/main/population_growth)
 
 See on lihtne näide, kus näeme kuidas matemaatika/statistika teadmisi kasutades on võimalik programmi efektiivsust oluliselt tõsta.
 
