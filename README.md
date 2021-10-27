@@ -374,6 +374,7 @@ Milliseid projekte tegin
     * oskus kirjutada dokumentatsiooni (koodile, raportile, mudelile jm lahendusele)
     * oskus muuta kood loetavaks (_refactoring_)
     * oskus optimeerida koodi
+* omandada oskus/julgus küsida küsimusi
 
 Tagasi vaadates, mida ma tahan, et ma oleks osanud/teinud:
 * [Parem konspekteerimine](https://www.youtube.com/watch?v=MYJsGksojms&list=WL&index=29&t=42s)
